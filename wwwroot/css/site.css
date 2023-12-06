@@ -1,0 +1,59 @@
+html {
+  font-size: 14px;
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+    position: relative;
+    min-height: 100%;    
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #AB9888;
+    align-items: center;
+    justify-content: center;
+    color: #FFF7EB !important;
+}
+    body a {
+        color: #FFF7EB !important;
+    }
+    body table {
+        color: #FFF7EB !important;
+    }
+/**//**/
+.col-md-4 {
+    background-color: #FFF7EB;
+    color: black !important;
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    margin-top: 7px;
+}
+img {
+    width: 70px;
+}
+.navbar {
+    background-color: #FFF7EB;
+}
+.menu {
+    background-color: #FFF7EB !important;
+    color: #AB9888;
+}
+.Botao {
+    background-color: #AB9888;
+    color: #FFF7EB;
+    border: none;
+    width: 435px;
+    margin-top: 7px;
+}

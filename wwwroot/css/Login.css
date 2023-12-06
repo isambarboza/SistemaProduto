@@ -1,0 +1,51 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #AB9888;
+    align-items: center;
+    justify-content: center;
+    color: #FFF7EB !important;
+}
+
+
+input {
+    border: none;
+    width: 430px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 7px;
+    height: 40px;
+}
+
+.Botao {
+    background-color: #AB9888;
+    color: white;
+    border: none;
+    width: 430px;
+    text-align: center;
+    color: #FFF7EB
+}
+
+.col-md-4 {
+    background-color: #FFF7EB;
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    width: 450px;
+    margin: 0 auto;
+    color: black;
+    
+}
